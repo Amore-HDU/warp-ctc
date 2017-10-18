@@ -14,7 +14,7 @@ if "CUDA_HOME" not in os.environ:
           "without GPU support. To build with GPU support "
           "please define the CUDA_HOME environment variable. "
           "This should be a path which contains include/cuda.h")
-    enable_gpu = False
+    enable_gpu = True
 else:
     enable_gpu = True
 
